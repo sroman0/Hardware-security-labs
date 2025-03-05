@@ -1,0 +1,79 @@
+$date
+	Wed Mar  5 16:43:40 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_ripple_carry_adder $end
+$var wire 4 ! Sum [3:0] $end
+$var wire 1 " Cout $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % Cin $end
+$scope module dut $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 % Cin $end
+$var wire 1 ( c3 $end
+$var wire 1 ) c2 $end
+$var wire 1 * c1 $end
+$var wire 4 + Sum [3:0] $end
+$var wire 1 " Cout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 +
+0*
+0)
+0(
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10
+b11 !
+b11 +
+b10 $
+b10 '
+b1 #
+b1 &
+#20
+b111 !
+b111 +
+b101 #
+b101 &
+#30
+1*
+1(
+1"
+b1110 !
+b1110 +
+1)
+b1111 $
+b1111 '
+b1111 #
+b1111 &
+#40
+0"
+0)
+0(
+b1011 !
+b1011 +
+0*
+b1 $
+b1 '
+b1010 #
+b1010 &
+#50
