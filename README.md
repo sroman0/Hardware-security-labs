@@ -46,7 +46,7 @@ Hardware-security-labs/
 ├── LICENSE                               # License information
 └── README.md                             # Project documentation
 ```
-
+<!---
 ## Requirements
 
 To run the lab exercises, you will need:
@@ -114,4 +114,4 @@ See the [LICENSE](./LICENSE) file for details.
 ---
 
 For any questions, feel free to open an issue or contact the repository maintainer.
-
+-->>
